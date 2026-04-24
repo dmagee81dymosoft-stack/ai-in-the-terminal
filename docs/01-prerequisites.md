@@ -159,6 +159,4 @@ echo "Setup complete! Ready to install tools."
 
 ❓ Having issues? → [Troubleshooting](15-troubleshooting.md)
 
----
-
-[← Back to README](../README.md) | [Next: Quick Start →](02-quickstart.md)
+--- 

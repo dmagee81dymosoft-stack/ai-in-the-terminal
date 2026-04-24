@@ -1,0 +1,25 @@
+{
+  "projectName": "ai-test-project",
+  "version": "1.0.0",
+  "createdAt": "2026-04-24",
+  "tools": {
+    "primary": "gemini-cli",
+    "version": "0.39.1"
+  },
+  "contextFiles": {
+    "main": "gemini.md",
+    "updateFrequency": "per-session"
+  },
+  "directories": {
+    "source": "./src",
+    "documentation": "./docs",
+    "config": "./config"
+  },
+  "features": {
+    "webSearch": true,
+    "fileAccess": true,
+    "contextPersistence": true,
+    "multiSession": true
+  },
+  "notes": "This config file helps maintain consistency across AI tool sessions"
+}
