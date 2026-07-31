@@ -11,7 +11,7 @@
 ### ⏳ Claude Code
 **Status:** Available (requires setup + Claude Pro subscription)  
 **Cost:** Claude Pro ($20/mo)  
-**Launch:** `claude3` or similar  
+**Launch:** `claude`  
 **Best for:** Complex coding, architecture, refactoring
 
 ### ⏳ OpenCode
@@ -30,7 +30,7 @@
 
 ### Step 1: Launch Gemini CLI
 ```bash
-cd /workspaces/ai-in-the-terminal/ai-test-project
+cd /home/runner/work/ai-in-the-terminal/ai-in-the-terminal/ai-test-project
 gemini
 ```
 
@@ -122,7 +122,7 @@ sudo gemini
 **Can't create files?**
 Ensure the project directory is writable:
 ```bash
-ls -la /workspaces/ai-in-the-terminal/ai-test-project
+ls -la /home/runner/work/ai-in-the-terminal/ai-in-the-terminal/ai-test-project
 ```
 
 ## Next Resources
