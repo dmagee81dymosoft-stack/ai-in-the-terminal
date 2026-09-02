@@ -96,7 +96,7 @@ See [Multi-Tool Workflow](../../docs/08-multi-tool-workflow.md) for details.
 
 ## Tips & Tricks
 
-1. **Update Context Regularly**: Run `/init` in each tool to automatically create or refresh its context file
+1. **Initialize and Maintain Context**: Run `/init` in each tool to initially create or refresh its context file, then choose one file as the source of truth for ongoing updates and sync the other tools' context files from it
 2. **Keep Notes**: Document what you learn in /docs
 3. **Save Outputs**: Let AI create files directly in /src
 4. **Read Logs**: Check terminal output for insights
