@@ -52,7 +52,7 @@ Inside Gemini CLI, type:
 > /init
 ```
 
-This updates `gemini.md` with your project context.
+This automatically creates or updates `gemini.md` with your project context.
 
 ### Step 5: Exit and Reopen
 ```
@@ -85,7 +85,7 @@ See [Multi-Tool Workflow](../../docs/08-multi-tool-workflow.md) for details.
 | `config/` | Tool configurations and settings |
 | `gemini.md` | Context file for Gemini CLI (auto-updated) |
 | `claude.md` | Context file for Claude Code |
-| `opencode.md` | Context file for OpenCode |
+| `agents.md` | Context file for OpenCode |
 
 ## Key Files
 
@@ -96,7 +96,7 @@ See [Multi-Tool Workflow](../../docs/08-multi-tool-workflow.md) for details.
 
 ## Tips & Tricks
 
-1. **Update Context Regularly**: Run `/init` in tools to refresh context
+1. **Update Context Regularly**: Run `/init` in each tool to automatically create or refresh its context file
 2. **Keep Notes**: Document what you learn in /docs
 3. **Save Outputs**: Let AI create files directly in /src
 4. **Read Logs**: Check terminal output for insights

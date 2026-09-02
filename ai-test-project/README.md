@@ -38,7 +38,7 @@ gemini
 
 ## Pro Tips
 
-- **Context Files**: The `gemini.md` file remembers your project. Update it with `/init` in Gemini CLI.
+- **Context Files**: The `gemini.md` file remembers your project. Use `/init` in Gemini CLI to automatically create or update it.
 - **Multi-Tool**: After learning Gemini CLI, try Claude Code or opencode
 - **File Access**: Gemini can read/write files directly in your project
 - **Web Search**: Gemini can search the web for current information
